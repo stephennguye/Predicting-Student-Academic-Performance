@@ -2,7 +2,7 @@
 
 ## Overview
 This project explores how demographic, social, and academic factors influence student success.  
-Using regression models (Linear, Ridge, Lasso, and ElasticNet), we predict **final grades (G3)** of secondary school students based on historical data from the UCI Machine Learning Repository.
+Using regression models (Linear, Ridge, Lasso, and ElasticNet), I predict **final grades (G3)** of secondary school students based on historical data from the UCI Machine Learning Repository.
 
 ---
 
