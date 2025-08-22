@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grade Predictor</title>
+</head>
+<body>
+    <h2>Predict Student Final Grade (G3)</h2>
+    <form action="/predict" method="post">
+        Age: <input type="number" name="age"><br><br>
+        Sex: <select name="sex">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+        </select><br><br>
+        Study Time: <input type="number" name="studytime"><br><br>
+        Failures: <input type="number" name="failures"><br><br>
+        Absences: <input type="number" name="absences"><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction_text %}
+    <h3>{{ prediction_text }}</h3>
+    {% endif %}
+</body>
+</html>
